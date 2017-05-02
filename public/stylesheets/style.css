@@ -6,8 +6,12 @@ body {
 h1 {
   display: inline-block;
 }
+hr{
+  border-color: #727084 !important;
+}
 a {
-  color: #00B7FF;
+  color: white !important;
+  text-decoration: none !important;
 }
 #news_blocks{
 }
@@ -20,21 +24,56 @@ a {
 }
 
 #news_block{
-  padding: 50px;
-  font-size: 16px;
+  padding: 25px;
+  font-size: 15px;
+  font-size: 1vw;
   border-radius: 5px;
   display: inline-block;
-  margin: 2px;
-  background-color: #abaaba;
+  margin: 1px;
+  background-color: #727084;
   color: white;
   font-weight: bolder;
 }
 
 #news_favicon_gen {
   position: relative;
-  top: -40px;
-  left: -40px;
+  top: -25px;
+  left: -20px;
 }
+
+#articles_blocks{
+  position:fixed;
+  top: 20px;
+  max-height: 500px;
+}
+
+.article_block{
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #9a2828;
+  margin: 1px;
+  color: white;
+  border: solid;
+  border-color: #ff5c5c;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.article_description {
+  display: none;
+  color: white;
+}
+
+.images {
+  border:solid;
+  border-color: black;
+  border-width: 1px !important;
+  display: none;
+}
+
 
 /* Sweep To Top */
 .hvr-sweep-to-top {
